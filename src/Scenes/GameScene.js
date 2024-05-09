@@ -212,7 +212,7 @@ class GameScene extends Phaser.Scene {
 
         // TITLE AND DESCRIPTIONS
 
-        document.getElementById('description').innerHTML = '<h2>CMPM 120 Game 2</h2><br>A: left // D: right // Space: shoot // S: Next Scene'
+        document.getElementById('description').innerHTML = '<h1>CMPM 120 Game 2</h1><br><h2>A: Move Left // D: Move Right // Space: Throw Bait</h2>'
 
         this.scoreText = this.add.text(880, 70, 'Score:\n' + this.currentScore, {
             fontFamily: "'Poetsen One'",
